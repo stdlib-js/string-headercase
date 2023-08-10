@@ -109,6 +109,11 @@ jobs:
           find . -type f -name '*.md' -print0 | xargs -0 perl -0777 -i -pe 's/```math\n([\s\S]+?)\n```\n\n//g'
           find . -type f -name '*.md' -print0 | xargs -0 perl -0777 -i -pe 's/<!-- <div class="equation"(.*)(<\/div>\s*-->)/<div class="equation"$1<\/div>/sg'
 
+      # Replace LICENSE comments with abbreviated ones:
+      - name: 'Replace LICENSE comments with abbreviated ones'
+        run: |
+          find . -name "bin/cli" -type f -exec perl -i -p0e 's|/\*\*\n\*\s\@license\sApache-2.0\n\*\n\*\sCopyright\s\(c\)\s\d{4}\sThe\sStdlib\sAuthors\.\n(.*?)\n\*\slimitations\sunder\sthe\sLicense\.\n\*/|// Copyright (c) 2023 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0|s' {} \;
+          
       # Replace GitHub links to individual packages with npm links:
       - name: 'Replace all GitHub links to individual packages with npm links'
         run: |
@@ -117,7 +122,7 @@ jobs:
           ESCAPED_SLUG=${SLUG//\//\\\/}
           REPO=${SLUG#*/}
           find . -type f -name '*.md' -print0 | xargs -0 sed -Ei "s/https:\/\/github.com\/${ESCAPED_SLUG}\/tree\/main/https:\/\/www.npmjs.com\/package\/@stdlib\/${REPO}/g"
-
+          
       # Publish package to npm:
       - name: 'Publish package to npm'
         uses: JS-DevTools/npm-publish@v2
