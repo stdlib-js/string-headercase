@@ -113,7 +113,7 @@ jobs:
       - name: 'Replace LICENSE comments with abbreviated ones'
         run: |
           find . -name "bin/cli" -type f -exec perl -i -p0e 's|/\*\*\n\*\s\@license\sApache-2.0\n\*\n\*\sCopyright\s\(c\)\s\d{4}\sThe\sStdlib\sAuthors\.\n(.*?)\n\*\slimitations\sunder\sthe\sLicense\.\n\*/|// Copyright (c) 2023 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0|s' {} \;
-          
+
       # Replace GitHub links to individual packages with npm links:
       - name: 'Replace all GitHub links to individual packages with npm links'
         run: |
