@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import headercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-headercase@deno/mod.js';
+import headercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-headercase@v0.0.4-deno/mod.js';
 ```
 
 #### headercase( str )
@@ -65,7 +65,7 @@ out = headercase( '--foo-bar--' );
 ## Examples
 
 ```javascript
-import headercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-headercase@deno/mod.js';
+import headercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-headercase@v0.0.4-deno/mod.js';
 
 var str = 'Hello World!';
 var out = headercase( str );
