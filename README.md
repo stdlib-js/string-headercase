@@ -290,8 +290,11 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
 [deno-url]: https://github.com/stdlib-js/string-headercase/tree/deno
+[deno-readme]: https://github.com/stdlib-js/string-headercase/blob/deno/README.md
 [umd-url]: https://github.com/stdlib-js/string-headercase/tree/umd
+[umd-readme]: https://github.com/stdlib-js/string-headercase/blob/umd/README.md
 [esm-url]: https://github.com/stdlib-js/string-headercase/tree/esm
+[esm-readme]: https://github.com/stdlib-js/string-headercase/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/string-headercase/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-headercase/main/LICENSE
