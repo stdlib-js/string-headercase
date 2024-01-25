@@ -208,6 +208,15 @@ Foo-Bar
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/string-camelcase`][@stdlib/string/camelcase]</span><span class="delimiter">: </span><span class="description">convert a string to camel case.</span>
+-   <span class="package-name">[`@stdlib/string-kebabcase`][@stdlib/string/kebabcase]</span><span class="delimiter">: </span><span class="description">convert a string to kebab case.</span>
+-   <span class="package-name">[`@stdlib/string-pascalcase`][@stdlib/string/pascalcase]</span><span class="delimiter">: </span><span class="description">convert a string to Pascal case.</span>
+-   <span class="package-name">[`@stdlib/string-snakecase`][@stdlib/string/snakecase]</span><span class="delimiter">: </span><span class="description">convert a string to snake case.</span>
+
 </section>
 
 <!-- /.related -->
@@ -288,6 +297,18 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [standard-streams]: https://en.wikipedia.org/wiki/Standard_streams
 
 [mdn-regexp]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+
+<!-- <related-links> -->
+
+[@stdlib/string/camelcase]: https://github.com/stdlib-js/string-camelcase
+
+[@stdlib/string/kebabcase]: https://github.com/stdlib-js/string-kebabcase
+
+[@stdlib/string/pascalcase]: https://github.com/stdlib-js/string-pascalcase
+
+[@stdlib/string/snakecase]: https://github.com/stdlib-js/string-snakecase
+
+<!-- </related-links> -->
 
 </section>
 
