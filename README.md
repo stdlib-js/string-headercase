@@ -174,16 +174,16 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/string-headercase-cli.svg
 [npm-url]: https://npmjs.org/package/@stdlib/string-headercase-cli
 
-[test-image]: https://github.com/stdlib-js/string-headercase@v0.2.2/actions/workflows/test.yml/badge.svg?branch=v0.2.2
-[test-url]: https://github.com/stdlib-js/string-headercase@v0.2.2/actions/workflows/test.yml?query=branch:v0.2.2
+[test-image]: https://github.com/stdlib-js/string-headercase/actions/workflows/test.yml/badge.svg?branch=v0.2.2
+[test-url]: https://github.com/stdlib-js/string-headercase/actions/workflows/test.yml?query=branch:v0.2.2
 
-[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/string-headercase@v0.2.2/main.svg
-[coverage-url]: https://codecov.io/github/stdlib-js/string-headercase@v0.2.2?branch=main
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/string-headercase/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/string-headercase?branch=main
 
 <!--
 
-[dependencies-image]: https://img.shields.io/david/stdlib-js/string-headercase@v0.2.2.svg
-[dependencies-url]: https://david-dm.org/stdlib-js/string-headercase@v0.2.2/main
+[dependencies-image]: https://img.shields.io/david/stdlib-js/string-headercase.svg
+[dependencies-url]: https://david-dm.org/stdlib-js/string-headercase/main
 
 -->
 
@@ -194,22 +194,22 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
-[cli-section]: https://github.com/stdlib-js/string-headercase@v0.2.2#cli
-[cli-url]: https://github.com/stdlib-js/string-headercase@v0.2.2/tree/cli
-[@stdlib/string-headercase]: https://github.com/stdlib-js/string-headercase@v0.2.2/tree/main
+[cli-section]: https://github.com/stdlib-js/string-headercase#cli
+[cli-url]: https://github.com/stdlib-js/string-headercase/tree/cli
+[@stdlib/string-headercase]: https://github.com/stdlib-js/string-headercase/tree/main
 
 [umd]: https://github.com/umdjs/umd
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
-[deno-url]: https://github.com/stdlib-js/string-headercase@v0.2.2/tree/deno
-[deno-readme]: https://github.com/stdlib-js/string-headercase@v0.2.2/blob/deno/README.md
-[umd-url]: https://github.com/stdlib-js/string-headercase@v0.2.2/tree/umd
-[umd-readme]: https://github.com/stdlib-js/string-headercase@v0.2.2/blob/umd/README.md
-[esm-url]: https://github.com/stdlib-js/string-headercase@v0.2.2/tree/esm
-[esm-readme]: https://github.com/stdlib-js/string-headercase@v0.2.2/blob/esm/README.md
-[branches-url]: https://github.com/stdlib-js/string-headercase@v0.2.2/blob/main/branches.md
+[deno-url]: https://github.com/stdlib-js/string-headercase/tree/deno
+[deno-readme]: https://github.com/stdlib-js/string-headercase/blob/deno/README.md
+[umd-url]: https://github.com/stdlib-js/string-headercase/tree/umd
+[umd-readme]: https://github.com/stdlib-js/string-headercase/blob/umd/README.md
+[esm-url]: https://github.com/stdlib-js/string-headercase/tree/esm
+[esm-readme]: https://github.com/stdlib-js/string-headercase/blob/esm/README.md
+[branches-url]: https://github.com/stdlib-js/string-headercase/blob/main/branches.md
 
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-headercase@v0.2.2/main/LICENSE
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-headercase/main/LICENSE
 
 [standard-streams]: https://en.wikipedia.org/wiki/Standard_streams
 
