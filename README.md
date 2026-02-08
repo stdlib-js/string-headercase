@@ -44,6 +44,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import headercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-headercase@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-headercase/tags). For example,
+
+```javascript
 import headercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-headercase@v0.2.3-deno/mod.js';
 ```
 
@@ -76,7 +81,7 @@ out = headercase( '--foo-bar--' );
 ## Examples
 
 ```javascript
-import headercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-headercase@v0.2.3-deno/mod.js';
+import headercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-headercase@deno/mod.js';
 
 var str = 'Hello World!';
 var out = headercase( str );
